@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.database import get_conn
+from database import get_conn
 
 EDUCATION_LEVELS = ["No education", "Primary (1-5)", "Middle (6-8)", "8th Pass", "10th Pass", "12th Pass", "ITI/Diploma", "Graduate", "Post Graduate"]
 DISTRICTS = ["Mumbai", "Thane", "Pune", "Nagpur", "Nashik", "Aurangabad", "Solapur", "Kolhapur", "Ahmednagar", "Satara", "Other"]
