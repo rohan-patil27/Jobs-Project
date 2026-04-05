@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.database import get_conn
+from database import get_conn
 
 TYPE_ICONS = {
     "Mental Health NGO": "🧠", "Crisis Helpline": "📞", "Child Welfare NGO": "👶",
