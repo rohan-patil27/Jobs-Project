@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.database import get_conn
+from database import get_conn 
 import re
 
 def skill_match_score(user_skills_str, job_skills_str):
