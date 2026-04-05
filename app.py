@@ -7,18 +7,16 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-from modules.database import init_db
-from modules.auth import show_login, show_register
-from modules.job_matching import show_job_matching
-from modules.schemes import show_schemes
-from modules.emergency import show_emergency
-from modules.resume import show_resume_generator
-from modules.admin import show_admin_dashboard
-from modules.tracker import show_tracker
-from modules.courses import show_courses
-from modules.language import get_text
-from modules.styles import load_styles
-
+from auth import show_login, show_register
+from job_matching import show_job_matching
+from schemes import show_schemes
+from emergency import show_emergency
+from resume import show_resume_generator
+from admin import show_admin_dashboard
+from tracker import show_tracker
+from courses import show_courses
+from language import get_text
+from styles import load_styles
 init_db()
 load_styles()
 
