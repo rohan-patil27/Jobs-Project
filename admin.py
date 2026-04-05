@@ -1,5 +1,5 @@
 import streamlit as st
-from modules.database import get_conn
+from database import get_conn
 import pandas as pd
 from collections import Counter
 
